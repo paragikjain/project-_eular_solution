@@ -3,7 +3,7 @@ solution of project eular problems. Problems are taken from https://projecteuler
 
 Programming_language : c plus plus(cpp)(c++)
 
-Solved Problems : 1 to 3
+Solved Problems : 1 to 4
 
 Below I will list one by one problem I am solving.
 
@@ -18,3 +18,8 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 Problem 3:<br>
 The prime factors of 13195 are 5, 7, 13 and 29.
 What is the largest prime factor of the number 600851475143 ?
+
+Problem 4:<br>
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+Find the largest palindrome made from the product of two 3-digit numbers.
+

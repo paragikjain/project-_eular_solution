@@ -11,7 +11,7 @@ Date: 3/3/2020
 
 using namespace std;
 
-//function for finding prime no, retrun 1 when no is prime else returns 0
+
 
 int main()
 {
