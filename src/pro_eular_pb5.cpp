@@ -9,42 +9,32 @@ Date: 4/3/2020
 #include <iostream>
 #include <math.h>
 #include <vector>
+#include <algorithm>
+
 
 using namespace std;
 
 int main()
 {
- int n=10; //input
- int ans=1;
- int divby=0;
+ int n=20; //input
+ int ans=2;
+ int temp=1;
  vector<int> list_used;
- for(int i=2;i<=10;i++)
- {   int temp=i;
-     for(int j=2;j<i;j++)
+ list_used.push_back(2);
+ for(int i=3;i<=n;i++)
+ {    temp=i;
+     for(vector<int>::iterator it=list_used.begin();it!=list_used.end();it++)
      {
-         if(temp%j==0)
-         { 
-            cout<<"divby"<<temp<<endl;
-            temp=temp/j;
-            divby=temp;
+         if(temp%*it==0)
+         {
+            temp=temp/(*it);
          }
      }
-     
-    if(divby!=0)
-    {   
-        list_used.push_back(divby)
-        ans=ans*divby;
-        cout<<"divbyfinal"<<divby<<endl;
-        divby=0;
-    }
-    else
-    {
-        cout<<i<<endl;
-        divby=0;
-        ans=ans*i;
-    } 
-     
+     list_used.push_back(temp);
+     ans=ans*temp;
+     cout<<"ans "<<temp<<endl;
  }
+  
  cout<<ans; //output
  return 0; 
 }
