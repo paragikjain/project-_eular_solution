@@ -57,7 +57,7 @@ for(int i=0;i<num.size()-(adjcent_size-1);i++)
     {
         large_mul=temp_mul;
     }
-    cout<<i<<endl;
+    
 }
   cout<<large_mul; //output
   return 0; 
