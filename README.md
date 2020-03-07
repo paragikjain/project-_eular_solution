@@ -64,4 +64,7 @@ Problem 9:<br>
 A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,a2 + b2 = c2, For example, 
 squre(3) + squre(4) = 9 + 16 = 25 = squre(5).There exists exactly one Pythagorean triplet for which a + b + c = 1000.Find the product abc.
 
+Problem 10<br>
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.Find the sum of all the primes below two million.
+
 
