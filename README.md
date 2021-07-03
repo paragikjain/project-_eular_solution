@@ -3,7 +3,7 @@ solution of project eular problems. Problems are taken from https://projecteuler
 
 Programming_language : c plus plus(cpp)(c++)
 
-Solved Problems : 1 to 11
+Solved Problems : 1 to 12 and problem 20
 
 Below I will list one by one problem I am solving.
 
@@ -103,5 +103,15 @@ Let us list the factors of the first seven triangle numbers:
     21: 1,3,7,21
     28: 1,2,4,7,14,28
 We can see that 28 is the first triangle number to have over five divisors.What is the value of the first triangle number to have over five hundred divisors?
+
+
+Problem 20:<br>
+n! means n × (n − 1) × ... × 3 × 2 × 1
+
+For example, 10! = 10 × 9 × ... × 3 × 2 × 1 = 3628800,
+and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
+
+Find the sum of the digits in the number 100!
+
 
 
